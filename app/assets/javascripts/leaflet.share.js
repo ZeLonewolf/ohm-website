@@ -365,7 +365,7 @@ L.OSM.share = function (options) {
       $("#embed_link")
         .toggleClass("btn-primary", true)
         .toggleClass("btn-secondary", false)
-        .tooltip(true ? "disable" : "enable");
+        .tooltip("disable");
  
       const
         parsedHash = new URLSearchParams(location.hash),
