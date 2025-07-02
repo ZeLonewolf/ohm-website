@@ -153,7 +153,7 @@ L.OSM.Map = L.Map.extend({
               'https://c.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png'
             ],
             tileSize: 256,
-            attribution: '© OpenStreetMap contributors. Tiles courtesy of OpenStreetMap France',
+            attribution: `${copyright}. ${cyclosm}. ${terms}`,
             maxzoom: 20
           }
         },
